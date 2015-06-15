@@ -1,0 +1,10 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/wamp/www/My_snapchat/gulpfile.js",
+        "C:/wamp/www/My_snapchat/plugins/cordova-plugin-device/src/firefoxos/DeviceProxy.js",
+        "C:/wamp/www/My_snapchat/www/lib/ionic/js/ionic.min.js",
+        "C:/wamp/www/My_snapchat/www/lib/ionic/js/ionic.js",
+        "C:/wamp/www/My_snapchat/www/lib/ionic/js/ionic.bundle.min.js",
+        "C:/wamp/www/My_snapchat/www/js/webCam.js"
+    ]
+}

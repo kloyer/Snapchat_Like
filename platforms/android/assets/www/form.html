@@ -1,0 +1,30 @@
+
+<!-- INSCRIPTION -->
+<form data-ng-controller="formConnexion" data-ng-submit="connexion()">
+    <label class="item item-input item-stacked-label">
+        <span class="input-label">Email</span>
+        <input id="connexion-mail" type="email" placeholder="john@suhr.com" data-ng-model="formData.email">
+    </label>
+        <label class="item item-input item-stacked-label">
+        <span class="input-label">Password</span>
+    <input id="connexion-password" type="password" placeholder="******" data-ng-model="formData.password">
+    </label>
+    <button type="submit" class="button button-full button-positive">
+        Connexion
+    </button>
+</form>
+
+<!-- INSCRIPTION -->
+<form data-ng-controller="formInscription" data-ng-submit="inscription()">
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">Email</span>
+    <input id="inscription-mail" type="email" placeholder="john@suhr.com" ng-model="formData.email">
+  </label>
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">Password</span>
+    <input id="inscription-password" type="password" placeholder="******" ng-model="formData.password">
+  </label>
+  <button type="submit" class="button button-full button-positive">
+    Inscription
+  </button>
+</form>

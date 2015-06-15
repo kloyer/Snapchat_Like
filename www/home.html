@@ -1,0 +1,21 @@
+<div data-ng-controller="homeController">
+    <img id="photo" height="500" width="100%">
+    <button id="viewSnapButton" class="button button-full button-positive" type="button" ng-click="viewSnap()">Vous avez de nouveaux snaps !</button>
+    <button id="send" class="button button-full button-positive" type="button" ng-click="send()">Envoyer</button>
+    <button id="photoButton" class="button button-full button-positive" type="button" ng-click="takePic()">Photo</button>
+    
+    
+    <div class="list">
+      <div class="item range range-positive">
+        <input type="range" name="volume" min="1" max="10" value="5" ng-model="dataSnapForm.timer">
+      </div>
+    </div>
+
+    <label id="search" class="item item-input">
+      <i class="icon ion-search placeholder-icon"></i>
+      <input type="search" placeholder="Search" ng-model="search.username">
+    </label>
+    <div data-ng-repeat="user in tabUsers | filter:search">
+        <ion-checkbox ng-click="check()" ng-model="isChecked" id="{{user.id}}">{{user.username}}</ion-checkbox>
+    </div>
+</div>
